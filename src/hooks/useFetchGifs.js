@@ -13,7 +13,7 @@ export const useFetchGifs = ( category ) => {
     }
     
     //Mediante el hook useEffect podemos ejecutar las funciones que 
-    //se encuentren dentro solamete cuando se cree el componente y no 
+    //se encuentren dentro solamente cuando se cree el componente y no 
     //cuando se cambie el estado
     useEffect( () => {
         getImages();

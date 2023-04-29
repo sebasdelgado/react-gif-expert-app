@@ -25,7 +25,7 @@ export const GifExpertApp = () => {
             {/* Input */}
             <AddCategory 
                 // setCategories={ setCategories } //De esta manera enviamos la función al componente
-                onNewCategory = { event => onAddCategory( event)}
+                onNewCategory = { event => onAddCategory( event )}
             />
 
             {/* Listado de Gif */}
